@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" author="John Ombagi" />
+<title>Contact Form</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+</head>
+
+<body>
+       
+        
+                <form method="post" action="form-processor.php" name="contact-form">
+                <div class="form">
+                    <div class="form_row">
+                    <label>Your name:</label>
+                    <input type="text" name="Full_Name" class="main_input" />
+                    </div>
+                    
+                    <div class="form_row">
+                    <label>Your email:</label>
+                    <input type="text" name="Email_Address" class="main_input" />
+                    </div> 
+                    
+                    <div class="form_row">
+
+                    <label>Your phone:</label>
+                    <input type="text" name="Telephone_Number" class="main_input" />
+                    </div> 
+                    
+                                         
+                    <div class="form_row">
+                    <label>Your Message:</label>
+                    <textarea name="Your_Message" class="main_textarea"></textarea>
+                    </div> 
+                    <br />
+                    <div class="form_row">To Check if you are a Human and not a Spam Bot, fill below <br>
+                    with the right answer (number only!)
+                    
+                    <label>20 plus 15:</label>
+                    <input type="number" name="AntiSpam" class="main_input" />
+                    </div> 
+                        
+                    <div class="form_row">
+                     <input type="submit" name="submit" class="submit" value="Send Msg" />
+                    </div>
+                
+                </div>
+                </form>
+				
+</body>
+</html>
